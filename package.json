@@ -2,9 +2,11 @@
   "name": "q",
   "version": "1.0.0",
   "description": "a backend at chai vishal",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +14,8 @@
     "chai"
   ],
   "author": "Vishal Mandal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
